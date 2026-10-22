@@ -21,7 +21,8 @@
             "network",
             "memory",
             "backlight",
-            "battery"
+            "battery",
+            "custom/power"
       ],
 
       "tray": {
@@ -159,15 +160,7 @@
             "on-click": "pavucontrol"
       },
       "custom/power": {
-            "format": "⏻ ",
-            "tooltip": false,
-            "menu": "on-click",
-            "menu-file": "$HOME/.config/waybar/power_menu.xml",
-            "menu-actions": {
-                  "shutdown": "shutdown",
-                  "reboot": "reboot",
-                  "suspend": "systemctl suspend",
-                  "hibernate": "systemctl hibernate"
-            }
-        }
+            "format": " ⏻ ",
+            "on-click": "wlogout -b a"
+      }
 }
