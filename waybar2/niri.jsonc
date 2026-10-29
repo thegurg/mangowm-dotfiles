@@ -16,6 +16,7 @@
             "clock"
       ],
       "modules-right": [
+            "mango/layout",
             "wireplumber",
             "tray",
             "network",
@@ -56,7 +57,24 @@
                   "9": "  "
             }
       },
-
+      "mango/layout": {
+          "format": "[] {symbol}",
+          "format-S": "NIRI",
+          "format-M": "M",
+          "format-F": "F",
+          "format-VF": "VF",
+          "format-T": "DWM-L",
+          "format-G": "G",
+          "format-K": "K",
+          "format-CT": "CENTER",
+          "format-RT": "DWM-R",
+          "format-G": "G",
+          "format-VS": "NIRI-V",
+          "format-VT": "DWM-V",
+          "format-VG": "VG",
+          "format-VK": "VK",
+          "format-DW": "HYPR",
+      },
       "mango/window": {
             "format": "{app_id}",
             "rewrite": {

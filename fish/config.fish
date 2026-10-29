@@ -1,10 +1,10 @@
 if status is-interactive
     starship init fish | source
     set fish_greeting ""
-    #set images ~/assets/owner/*.{jpg,jpeg,png,webp}
-    #set image (random choice $images)
-    #viu "$image" -w 30
-    cat ~/.config/fastfetch/arch
+    set images ~/assets/owner/*.{jpg,jpeg,png,webp}
+    set image (random choice $images)
+    viu "$image" -w 30
+    #cat ~/.config/fastfetch/arch
 end
 
 set -gx LANG en_US.UTF-8
